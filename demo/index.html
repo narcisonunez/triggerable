@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Invocation God Deamon</title>
+    <link rel="stylesheet" href="../invocation-god.css">
+  </head>
+  <body>
+
+    <section class="theme-default" id="super-finder">
+        <textarea name="super-finder-entry" id="super-finder-entry" cols="60" rows="5"></textarea>
+        <ol id="popup-container" class="has-data"></ol><!-- popup-container -->
+    </section>
+
+
+    <script type="text/javascript" src="../invocation-god.js"></script>
+    <script type="text/javascript">
+
+      invocator.init('super-finder-entry');
+
+      invocator.add({
+          "name": "book", // will be added to invocation-triggers array
+          "codeKey": "isbn",
+          "titleKey": "name",
+          "urls": {
+              "all": "https://demo2777527.mockable.io/books",
+              "single": "https://demo2777527.mockable.io/books/{todo}",
+              "errorKey": "error"
+          },
+          "subtitle": {
+            "subtitleKey": "author"
+          }
+      });
+
+    </script>
+  </body>
+</html>

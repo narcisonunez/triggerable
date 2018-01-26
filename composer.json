@@ -1,0 +1,14 @@
+{
+    "name": "geekroot/invocation-god",
+    "description": "",
+    "keywords": ["", ""],
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Narciso Nunez",
+        "email" : "narciso.arias21@gmail.com",
+        "homepage": "narcisonunez.com",
+        "role": "Owner"
+      }
+    ]
+}
