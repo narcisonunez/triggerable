@@ -1,13 +1,13 @@
 {
-    "name": "geekroot/invocation-god",
-    "description": "",
-    "keywords": ["", ""],
+    "name": "geekroot/triggerable",
+    "description": "Javascript library that allow you to register your own @trigger key words",
+    "keywords": ["triggerable", "javascript", "chat"],
     "license": "MIT",
     "authors": [
       {
         "name": "Narciso Nunez",
         "email" : "narciso.arias21@gmail.com",
-        "homepage": "narcisonunez.com",
+        "homepage": "http://www.narcisonunez.com",
         "role": "Owner"
       }
     ]
